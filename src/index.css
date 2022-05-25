@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--purple-dark: #170312;
+	--purple-medium: #33032d;
+    --purple-light: #531253;
+    --gray-light: #eaeaea;
+    --white: #f4fffd;
+}
+
+body {
+  font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+p {
+	font-size: 22px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
