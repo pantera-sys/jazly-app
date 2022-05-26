@@ -23,8 +23,8 @@ const images = [
 
 function SeparatorImage() {
     return (
-        <div class="container-fluid px-0 galeria">
-		<div class="row justify-content-center mx-0 px-0">
+        <div className="container-fluid px-0 galeria">
+		<div className="row justify-content-center mx-0 px-0">
 			{ 
                 images.map(({source, alt}) => <Image source={source} alt={alt} /> )
             }

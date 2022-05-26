@@ -1,10 +1,10 @@
-import '../../../src/App.css'
+import s from './Header.module.css'
 
 function Header() {
     return(
-        <div class="contenido-header">
-		    <div class="fondo" id="fondo">
-		    	<h1 class="texto">Jazly - Accesorios </h1>
+        <div className={s.contenido_header}>
+		    <div className={s.fondo} id="fondo">
+		    	<h1 className={s.texto}>Jazly - Accesorios </h1>
 		    </div>
 	    </div>
     )
