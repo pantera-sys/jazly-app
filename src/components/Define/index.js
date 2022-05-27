@@ -22,8 +22,8 @@ const icons = [
 
 function Define() {
     return(
-        <div className="container">
-		<div className="row acerca-de justify-content-around">
+        <div className= {`container`} >
+		<div className= {` row  justify-content-around ${s.acerca_de}`} >
 			{ 
                 icons.map(({title, icon, desc, alt}) => <Art title={title} icon={icon} desc={desc} alt={alt} />)
             }
