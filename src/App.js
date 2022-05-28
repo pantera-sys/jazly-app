@@ -5,6 +5,7 @@ import About  from './components/about'
 import Separator from './components/Separator'
 import Define from './components/Define';
 import SeparatorImage from './components/SeparatorImage/index'
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
     <Separator />
     <Define />
     <SeparatorImage />
-
+    <Footer />
    </>
   );
 }

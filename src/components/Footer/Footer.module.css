@@ -1,0 +1,47 @@
+.subtitulo {
+	font-size: 20px;
+	color: var(--purple-dark);
+	font-family: 'Noto Serif', serif;
+	font-weight: 700;
+	z-index: 2;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.subtitulo span {
+	background-color: var(--gray-light);
+	padding: 0 15px;
+	z-index: 99;
+	position: relative;
+}
+
+.subtitulo::after {
+	content: "";
+	display: inline-block;
+	height: 2px;
+	width: 100%;
+	background: var(--purple-dark);
+	position: relative;
+	top: -29px;
+	z-index: 1;
+}
+
+.contacto {
+	margin-bottom: 60px;
+}
+
+.redes_sociales {
+	padding: 10px;
+	background-color: var(--purple-light);
+}
+
+.redes_sociales img {
+	padding: 5px;
+	border-radius: 100%;
+	width: 50px;
+	transition: .3s ease all;
+}
+
+.redes_sociales img:hover {
+	transform: scale(1.2);
+}

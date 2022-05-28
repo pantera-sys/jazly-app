@@ -30,3 +30,10 @@
     transform: translateY(18px);
     background-color: var(--purple-light);
   }
+
+  /* ------------------------- */
+/* Acerca de */
+/* ------------------------- */
+.acerca_de {
+	margin-bottom: 60px;
+}

@@ -1,13 +1,14 @@
 import meta from '../../utils/icons/facebook.png'
-import insta from '../../utils/instagram-new.png'
+import insta from '../../utils/icons/instagram-new.png'
 import wsp from '../../utils/icons/whatsapp.svg'
+import s from './Footer.module.css'
 
 function Footer() {
     return(
         <div className="container-fluid">
-			<section className="contacto row justify-content-center">
+			<section className= {`${s.contacto} row justify-content-center`} >
 				<div className="col-12 col-md-9 text-center">
-					<h2 className="subtitulo"><span>Contactanos</span></h2>
+					<h2 className= {s.subtitulo} ><span>Contactanos</span></h2>
 				</div>
 
 				<div className="w-100 mb-4"></div>
@@ -18,11 +19,11 @@ function Footer() {
 				</div>
 			</section>
 
-			<footer className="row justify-content-center redes-sociales">
+			<footer className= {`row justify-content-center ${s.redes_sociales}`} >
 				<div className="col-auto">
-					<a href="#"><img src="img/icons/facebook.png" alt="" /></a>
-					<a href="#"><img src="img/icons/whatsapp.svg" alt="" /></a>
-					<a href="#"><img src="img/icons/instagram-new.png" alt="" /></a>
+					<a href="#"><img src={meta} alt="" /></a>
+					<a href="#"><img src= {wsp} alt="" /></a>
+					<a href="#"><img src= {insta} alt="" /></a>
 				</div>
 			</footer>
 		</div>
