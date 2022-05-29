@@ -1,24 +1,19 @@
 import './App.css';
-import Header from './components/Header/index'
-import Nav from './components/Navbar/index'
-import About  from './components/about'
-import Separator from './components/Separator'
-import Define from './components/Define';
-import SeparatorImage from './components/SeparatorImage/index'
-import Footer from './components/Footer';
+
+import Home from './pages/Home'
+import {  Routes, Route } from "react-router-dom"
+import React from 'react'
 
 function App() {
   return (
-   <>
-    <Header />
-    <Nav />
-    <About />
-    <Separator />
-    <Define />
-    <SeparatorImage />
-    <Footer />
-   </>
+
+    
+      <Routes>
+        <Route path='/' element={<Home /> } />
+      </Routes>    
+
   );
 }
 
 export default App;
+

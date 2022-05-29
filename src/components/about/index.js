@@ -4,6 +4,9 @@ import image3 from '../../utils/products/pulseras/product_01.jpg'
 import image4 from '../../utils/products/anillos/product_01.jpg'
 import Article from './article'
 import s from './about.module.css'
+import {  Link } from "react-router-dom"
+import React from "react";
+
 
 const card = [
     {
@@ -47,7 +50,7 @@ function About() {
 				<p>
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore officiis illum sequi quia doloribus quas consequatur autem inventore soluta voluptatum vero quibusdam illo cum, quod nostrum aspernatur. Autem, amet quasi.
 				</p>
-				<a href="#" className= {s.enlace} >Descubre tu próximo diseño</a>
+				<Link to="/" className= {s.enlace} >Descubre tu próximo diseño</Link>
 			</div>
 		</div>
 		{/*  Imagenes con etiqueta  */}

@@ -3,6 +3,7 @@ import image1 from "../../utils/products/collares/collar.PNG";
 import image2 from '../../utils/products/aretes/aretes_03.jpg'
 import image3 from '../../utils/products/anillos/anillos.jpg'
 import s from './SeparatorImage.module.css'
+import React from "react";
 
 const images = [
     {

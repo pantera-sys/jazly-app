@@ -1,4 +1,5 @@
 import s from './Separator.module.css'
+import React from "react";
 
 function Separator() {
     return(

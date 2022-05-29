@@ -1,8 +1,9 @@
+import { Link } from 'react-router-dom'
 import meta from '../../utils/icons/facebook.png'
 import insta from '../../utils/icons/instagram-new.png'
 import wsp from '../../utils/icons/whatsapp.svg'
 import s from './Footer.module.css'
-
+import phone from '../../utils/icons/icon-cellphone.png'
 function Footer() {
     return(
         <div className="container-fluid">
@@ -13,17 +14,17 @@ function Footer() {
 
 				<div className="w-100 mb-4"></div>
 				<div>
-					<p className="border-bottom border-top">
-						<img src="img/icons/icon-cellphone.png" alt="" />Tel: 1 23 45 67
+					<p className="border-bottom border-top text-center">
+						<img src={phone} alt="" />Tel: 1 23 45 67
 					</p>
 				</div>
 			</section>
 
 			<footer className= {`row justify-content-center ${s.redes_sociales}`} >
 				<div className="col-auto">
-					<a href="#"><img src={meta} alt="" /></a>
-					<a href="#"><img src= {wsp} alt="" /></a>
-					<a href="#"><img src= {insta} alt="" /></a>
+					<a href="/"><img src={meta} alt="" /></a>
+					<a href="/"><img src= {wsp} alt="" /></a>
+					<a href="/"><img src= {insta} alt="" /></a>
 				</div>
 			</footer>
 		</div>

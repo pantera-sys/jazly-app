@@ -2,6 +2,7 @@ import gift from "../../utils/icons/gift_present_box_icon_176476.png";
 import ring from '../../utils/icons/ring_114776.png';
 import Art from "./Art";
 import s from './Define.module.css'
+import React from "react";
 
 const icons = [
     {
