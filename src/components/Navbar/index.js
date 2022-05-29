@@ -8,7 +8,7 @@ function Navbar() {
         <nav className={s.menu}>
 
 		    <Link to="/">Nosotros</Link>
-		    <Link to="/">Galeria</Link>
+		    <Link to="/galery">Galeria</Link>
 		    <Link to="/">Contacto</Link>
 	    </nav>
     )

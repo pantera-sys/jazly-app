@@ -22,9 +22,9 @@ function Footer() {
 
 			<footer className= {`row justify-content-center ${s.redes_sociales}`} >
 				<div className="col-auto">
-					<a href="/"><img src={meta} alt="" /></a>
-					<a href="/"><img src= {wsp} alt="" /></a>
-					<a href="/"><img src= {insta} alt="" /></a>
+					<Link to="/"><img src={meta} alt="" /></Link>
+					<Link to="/"><img src= {wsp} alt="" /></Link>
+					<Link to="/"><img src= {insta} alt="" /></Link>
 				</div>
 			</footer>
 		</div>
